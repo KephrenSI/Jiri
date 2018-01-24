@@ -54,10 +54,6 @@
         </div>
     @endif
 
-    @if(Auth::user()->is_admin)
-        {{--@include('partials/tableauGlobal')--}}
-    @endif
-
 
     <div class="">
         <h2>
